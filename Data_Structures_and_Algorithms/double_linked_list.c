@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include"dsa.h"
 
  //structure define
 typedef  struct student_record_management_system {
@@ -14,7 +15,6 @@ typedef  struct student_record_management_system {
 } node;
 
 //function prototype
-int main();
 node* create_node_dll(node *head); //create new node
 void add_student_info(node **head);
 void display_all_student_info(node *head);

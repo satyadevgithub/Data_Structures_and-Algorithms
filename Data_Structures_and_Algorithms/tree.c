@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include"dsa.h"
 
 // Define a structure for a binary tree node
 typedef struct tree {
@@ -10,7 +11,6 @@ typedef struct tree {
 } tree;
 
 // Function prototypes for tree operations
-int main();
 tree *newRoot(int element); // Create a new tree node
 void insert_t(tree** root,int element); // insert_t an element into the tree
 void inorder(tree* root); // Inorder traversal of the tree

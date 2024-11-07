@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include"dsa.h"
 
 // Function prototypes for queue operations
-int main();
 void inqueue(int *queue, int *front, int *rear, int element, int size);
 void dqueue(int *queue, int *front, int *rear,int size);
 void peep_cq(int *queue, int front);

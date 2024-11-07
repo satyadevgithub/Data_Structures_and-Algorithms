@@ -1,16 +1,8 @@
 #include<stdio.h>
 #include<stdio.h>
 #include<stdlib.h>
+#include"dsa.h"
 
-int array();
-int stack();
-int queue();
-int Tree();
-int avl_tree();
-int circular_queue();
-int single_linked_list();
-int circular_sll();
-int double_linked_list();
 
 int main(){
   printf("\n####### Welcome in Main Program #######\n");
@@ -18,7 +10,7 @@ int main(){
   while(1) {
     // Display menu options
     printf("\n*****Menu*****\n");
-    printf("1. Array-> Searching and Sorting \n");
+    printf("1. Array\n");
     printf("2. Stack\n");
     printf("3. Queue\n");
     printf("4. Circular Queue\n");
@@ -56,13 +48,13 @@ int main(){
       case 9: double_linked_list();
               break;
       
-      /*case 10: ; 
+      /*case 10: reverseDisplay(head); // Display in reverse order
               break;
-      case 11: ; 
+      case 11: freeAllNode(&head); // Free all nodes
               break;
-      case 12: ; 
+      case 12: reverseList(&head); // Reverse the list
               break;
-      case 13: ; 
+      case 13: sortedList(&head); // Sort the list
               break;*/
       case 10: printf("####### Thanku #######\n\n");
               exit(0); // Exit the program

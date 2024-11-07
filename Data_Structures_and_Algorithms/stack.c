@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include"dsa.h"
 
 // Function prototypes for stack operations
-int main();
 void push_s(int *stack,int *top, int element,int size);
 void pop_s(int *stack,int *top);
 void peep_s(int *stack,int top);

@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include"dsa.h"
 
 // Define a structure to hold student data
 typedef struct {
@@ -15,7 +16,6 @@ typedef struct node {
 } node;
 
 // Function prototypes
-int main();
 node* createNode(); // Create a new node
 int checkDuplicate(node* head, node* newNode); // Check for duplicate PRN
 void insertAtEnd(node** head); // Insert a node at the end of the list

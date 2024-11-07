@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include"dsa.h"
 
 // Node structure for AVL Tree
 typedef struct Node {
@@ -10,7 +11,6 @@ typedef struct Node {
 } Node;
 
 // Function prototypes
-int main();
 Node* createNode_avl(int key);              // Creates a new node
 int height(Node *node);                 // Returns the height of a node
 int max(int a, int b);                  // Utility to get the maximum of two integers

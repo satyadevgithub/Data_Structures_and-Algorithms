@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include"dsa.h"
 
 // Function declarations
-int main();
+
 int* insert(int* size); // Function to insert an array
 void display(int* array, int size); // Function to display the array
 int* insertSortedAndUniqueData(int* size); // Function to insert sorted and unique data
